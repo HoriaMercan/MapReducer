@@ -6,7 +6,8 @@ import (
 	"strconv"
 )
 
-const TempDir = "/var/temp"
+const TempDir = "/var/tmp"
+const TaskTimeout = 500
 
 type GetReduceCountArgs struct {
 }
